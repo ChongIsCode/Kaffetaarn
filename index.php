@@ -5,34 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaffetår'N</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <a href="#"><img src="images/logo/Kaffetaarn.svg" alt=""></a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <div class="nav-info">
-                <p>Hollands Gaard <br>Latinerkvarteret, Nykøbing F</p>
-                <div class="nav-soMe">
-                    <a href="#"><img src="images/icons/facebook.svg" alt="#"></a>
-                    <a href="#"><img src="images/icons/instagram.svg" alt="#"></a>
-                    <a href="#"><img src="images/icons/tripadvisor.svg" alt="#"></a>
-                </div>
-            </div>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-
+    
+<?php include 'include/menu.php'?>
     <section class="front">
         <img src="images/front.png" alt="">
     </section>
@@ -107,7 +86,8 @@
                 </div>
                 <h3>Glutenfri</h3>
                 <p>Glutenalergi? Intet problem. 
-                    Vi har massere til lige præcis dig, uden gluten. </p>
+                    Vi har massere til lige præcis dig, 
+                    uden gluten. </p>
             </div>
         </div>
     </section>
@@ -120,6 +100,31 @@
             <h1>Se flere billeder</h1>
         </div>
     </section>
+
+    <section class="swiper">
+        <?php include 'include/swiper.php'?>
+    </section>
+
+
+
     <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 50,
+            modifier: 2,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        });
+    </script>
 </body>
 </html>
