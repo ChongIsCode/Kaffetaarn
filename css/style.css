@@ -9,4 +9,8 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
