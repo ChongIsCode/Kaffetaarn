@@ -31,11 +31,42 @@
 <section>
     <div class="text-element">
         <h2>Åbningstider</h2>
-        <p>Kaffetår’n er en lokal café i hjertet af Nykøbing Falster, i det gamle vandtårn fra 1908.
-            Caféen bliver drevet af Dea Guttman, som åbnede dørene for første gang den 1. april 2020.
-            Kaffetår'n lægger meget vægt på at bruge lokale kvalitets råvare til at lave sine mange
-            hjemmelavede retter og kager. Kaffetår'n sælger selvfølgelig også kaffe, både lys og mørk.</p>
+        <p>tirsdag - torsdag
+            fredag
+            lørdag
+            søndag - mandag</p>
+        <p>
+            11.00 - 14.00
+            11.00 - 15.30
+            10.00 - 15.00
+            LUKKET
+        </p>
+    </div>
+    <div class="text-element">
+        <h2>Åbningstider på udkigstårnet</h2>
+        <p>tirsdag
+            torsdag</p>
+        <p>
+            10.00 - 14.00
+            10.00 - 14:00
+        </p>
+    </div>
+    <div class="text__element">
+        <h2>Book bord</h2>
+        <p>Du er velkommen til at kontakte os og booke et bord I caféen. Hvis dette interessere dig,
+            så kan du kontakte os vha. kontaktoplysningerne under.
+            Ellers er du altid velkommen til at komme ned I caféen og booke et bord også.</p>
+    </div>
+    <div class="text__element--centered">
+        <h2>Kontakt os</h2>
+        <p>Tlf. nummer: 93 94 64 54</p>
         <br>
+        <p>eller på...</p>
+        <p>fjamsbog</p><p>nevergram</p>
+    </div>
+    <div class="text__element--centered">
+        <h2>Find os</h2>
+        <p>sej google kort</p>
     </div>
 
 </section>
