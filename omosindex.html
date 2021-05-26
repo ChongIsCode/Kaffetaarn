@@ -1,0 +1,71 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Om os</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+<body>
+<?php include 'include/menu.php'?>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Hvem er vi?</h1>
+    </div>
+</div>
+
+<div class="text-element">
+    <h2>Kaffetår'n</h2>
+    <br>
+    <p>Kaffetår’n er en lokal café i hjertet af Nykøbing Falster, i det gamle vandtårn fra 1908.
+        Caféen bliver drevet af Dea Guttman, som åbnede dørene for første gang den 1. april 2020.
+        Kaffetår'n lægger meget vægt på at bruge lokale kvalitets råvare til at lave sine mange
+        hjemmelavede retter og kager. Kaffetår'n sælger selvfølgelig også kaffe, både lys og mørk.</p>
+    <br>
+    <h2>Ejeren Dea</h2>
+</div>
+
+<img src="images/Dea.jpg" height="262" width=100%/>
+<div class="text-element">
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua.</p><br>
+</div>
+<button class="donate-button">Donér en genstand</button>
+
+<br><br><br>
+<div class="text-element">
+    <h2>Besøg os</h2>
+    <p>Google maps her</p>
+    <br>
+</div>
+<br>
+
+
+
+</body>
+</html>
