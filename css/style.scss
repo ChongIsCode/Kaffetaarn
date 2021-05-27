@@ -76,6 +76,8 @@ body, html {
   width: 100%;
 }
 
+/* Forside */
+
 .text__element p{
   margin-top: 5px;
 }
@@ -146,6 +148,17 @@ body, html {
   font-size: 16px;
   position: absolute;
   left: 25%;
+}
+
+/* Forside */
+.info {
+  .info__container {
+    .info__section {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 .swiper-container {

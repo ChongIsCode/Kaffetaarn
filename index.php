@@ -16,7 +16,7 @@
         <img src="images/front.png" alt="">
     </section>
     <section class="info">
-        <div class="info__container1">
+        <div class="info__container info__container1">
             <div class="info__section">
                 <h2>"mere end bare en kunde"</h2>
                 <p>Hos Kaffetår'n er du mere end bare 
@@ -28,7 +28,7 @@
             </div>
             <img src="images/front.png" alt="">
         </div>
-        <div class="info__container2">
+        <div class="info__container info__container2">
             <img src="images/front.png" alt="">
             <div class="info__section">
                 <h2>Menu</h2>
@@ -40,7 +40,7 @@
                 <a href="Se menukort"></a>
             </div>
         </div>
-        <div class="info__container3">
+        <div class="info__container info__container3">
             <img src="images/front.png" alt="">
             <div class="info__section">
                 <h2>Hvor er vi?</h2>
