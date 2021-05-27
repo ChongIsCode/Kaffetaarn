@@ -17,6 +17,7 @@ nav {
     min-height: 8vh;
     font-family: sans-serif;
     background: $mainWhite;
+    z-index: 1000;
     .logo {
         z-index: 1;
        img {
