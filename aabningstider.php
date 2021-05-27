@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<section>
+<section class="content">
     <div class="text-element">
         <h2>Åbningstider</h2>
         <p>tirsdag - torsdag
