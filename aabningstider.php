@@ -82,11 +82,30 @@
         <p>Tlf. nummer: 93 94 64 54</p>
         <br>
         <p>eller på...</p>
-        <p>fjamsbog</p><p>nevergram</p>
+        <div class="SoMe__icons">
+            <div class="SoMe__icon">
+                <img src="images/icons/facebook.svg" alt="Kaffetår'n Facebookside">
+            </div>
+            <div class="SoMe__icon">
+                <img src="images/icons/instagram.svg" alt="Kaffetår'n Instagramside">
+            </div>
+        </div>
     </div>
-    <div class="text__element--centered">
+    <div class="text__element">
         <h2>Find os</h2>
-        <p>sej google kort</p>
+        <div class="mapEmbed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.7488664871507!2d11.866003316031408!3d54.7668020750665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad31a0aa869615%3A0x3fccca125a3597fc!2sKaffet%C3%A5r&#39;N!5e0!3m2!1sda!2sdk!4v1622113303338!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div class="scrollUp">
+        <div class="arrow">
+            pew
+        </div>
+        <div class="text__element">
+            <p>Scroll up</p>
+        </div>
+        <div class="underline">
+        </div>
     </div>
 
 </section>
