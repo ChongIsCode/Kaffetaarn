@@ -76,24 +76,8 @@ body, html {
   width: 100%;
 }
 
-<<<<<<< HEAD
 /* Forside */
-.info {
-  .info__container {
-    .info__section {
-      h2 {
-        font-size: 30px;
 
-      }
-      p {
-
-      }
-
-    }
-
-  }
-}
-=======
 .text__element p{
   margin-top: 5px;
 }
@@ -140,7 +124,17 @@ body, html {
   left: 25%;
 }
 
->>>>>>> 68d5550953717e9b51ccb1252e2138e11d4bced9
+/* Forside */
+.info {
+  .info__container {
+    .info__section {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
 .swiper-container {
     width: 100%;
     padding-top: 50px;
