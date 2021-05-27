@@ -29,27 +29,47 @@
 </section>
 
 <section class="content">
-    <div class="text-element">
-        <h2>Åbningstider</h2>
-        <p>tirsdag - torsdag
-            fredag
-            lørdag
-            søndag - mandag</p>
-        <p>
-            11.00 - 14.00
-            11.00 - 15.30
-            10.00 - 15.00
-            LUKKET
-        </p>
+    <div class="text__element--table">
+        <div class="text__header">
+            <h2>Åbningstider</h2>
+        </div>
+        <div class="table">
+            <div class="table--left">
+                <p>
+                    tirsdag - torsdag
+                    <br>fredag
+                    <br>lørdag
+                    <br>søndag - mandag
+                </p>
+            </div>
+            <div class="table--right">
+                <p>
+                    11.00 - 14.00
+                    <br>11.00 - 15.30
+                    <br>10.00 - 15.00
+                    <br>LUKKET
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="text-element">
-        <h2>Åbningstider på udkigstårnet</h2>
-        <p>tirsdag
-            torsdag</p>
-        <p>
-            10.00 - 14.00
-            10.00 - 14:00
-        </p>
+    <div class="text__element--table">
+        <div class="text__header">
+            <h2>Åbningstider på udkigstårnet</h2>
+        </div>
+        <div class="table">
+            <div class="table--left">
+                <p>
+                    tirsdag
+                    <br>torsdag
+                </p>
+            </div>
+            <div class="table--right">
+                <p>
+                    10.00 - 14.00
+                    <br>10.00 - 14.00
+                </p>
+            </div>
+        </div>
     </div>
     <div class="text__element">
         <h2>Book bord</h2>
