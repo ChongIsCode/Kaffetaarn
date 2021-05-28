@@ -79,14 +79,12 @@
             <button class="donate-button">Donér en genstand</button>
         </div>
     </div>
-
-    <br>
-    <div class="text__element--centered">
-        <h2>Besøg os</h2>
-        <p>Google maps her</p>
-    </div>
     <br>
     <div class="map">
+        <div class="text__element--centered">
+            <h2>Besøg os</h2>
+            <p>Google maps her</p>
+        </div>
         <br>
         <div class="text__element">
             <div class="mapEmbed">

@@ -237,7 +237,9 @@ a {
 
 .map{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /* Centers elements in scroll button */
