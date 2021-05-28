@@ -29,65 +29,73 @@
 </section>
 
 <section class="content">
-    <div class="text__element--table">
-        <div class="text__header">
-            <h2>Åbningstider</h2>
+    <div class="gridContainer">
+        <div class="openTime">
+            <div class="text__element--table">
+                <div class="text__header">
+                    <h2>Åbningstider</h2>
+                </div>
+                <div class="table">
+                    <div class="table--left">
+                        <p>
+                            tirsdag - torsdag
+                            <br>fredag
+                            <br>lørdag
+                            <br>søndag - mandag
+                        </p>
+                    </div>
+                    <div class="table--right">
+                        <p>
+                            11.00 - 14.00
+                            <br>11.00 - 15.30
+                            <br>10.00 - 15.00
+                            <br>LUKKET
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text__element--table">
+                <div class="text__header">
+                    <h2>Åbningstider på udkigstårnet</h2>
+                </div>
+                <div class="table">
+                    <div class="table--left">
+                        <p>
+                            tirsdag
+                            <br>torsdag
+                        </p>
+                    </div>
+                    <div class="table--right">
+                        <p>
+                            10.00 - 14.00
+                            <br>10.00 - 14.00
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="table">
-            <div class="table--left">
+        <div class="findUs">
+            <div class="text__element">
+                <h2>Book bord</h2>
                 <p>
-                    tirsdag - torsdag
-                    <br>fredag
-                    <br>lørdag
-                    <br>søndag - mandag
+                    Du er velkommen til at kontakte os og booke et bord I caféen. Hvis dette interessere dig,
+                    så kan du kontakte os vha. kontaktoplysningerne under.
+                    Ellers er du altid velkommen til at komme ned I caféen og booke et bord også.
                 </p>
             </div>
-            <div class="table--right">
-                <p>
-                    11.00 - 14.00
-                    <br>11.00 - 15.30
-                    <br>10.00 - 15.00
-                    <br>LUKKET
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="text__element--table">
-        <div class="text__header">
-            <h2>Åbningstider på udkigstårnet</h2>
-        </div>
-        <div class="table">
-            <div class="table--left">
-                <p>
-                    tirsdag
-                    <br>torsdag
-                </p>
-            </div>
-            <div class="table--right">
-                <p>
-                    10.00 - 14.00
-                    <br>10.00 - 14.00
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="text__element">
-        <h2>Book bord</h2>
-        <p>Du er velkommen til at kontakte os og booke et bord I caféen. Hvis dette interessere dig,
-            så kan du kontakte os vha. kontaktoplysningerne under.
-            Ellers er du altid velkommen til at komme ned I caféen og booke et bord også.</p>
-    </div>
-    <div class="text__element--centered">
-        <h2>Kontakt os</h2>
-        <p>Tlf. nummer: 93 94 64 54</p>
-        <br>
-        <p>eller på...</p>
-        <div class="SoMe__icons">
-            <div class="SoMe__icon">
-                <img src="images/icons/facebook.svg" alt="Kaffetår'n Facebookside">
-            </div>
-            <div class="SoMe__icon">
-                <img src="images/icons/instagram.svg" alt="Kaffetår'n Instagramside">
+            <div class="text__element--centered">
+                <h2>Kontakt os</h2>
+                <p>Tlf. nummer: 93 94 64 54</p>
+                <br>
+                <p>eller på...</p>
+                <div class="SoMe__icons">
+                    <div class="SoMe__icon">
+                        <img src="images/icons/facebook.svg" alt="Kaffetår'n Facebookside">
+                    </div>
+                    <div class="SoMe__icon">
+                        <img src="images/icons/instagram.svg" alt="Kaffetår'n Instagramside">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -51,27 +51,42 @@ a {
 /* Ensures content on page has proper spacing on sides and top */
 .content {
   margin: 37px 37px 0 37px;
-  /* Selects all direct children and adds even margin-top on them all */
-  > * {
-    margin: 0 0 37px 0;
-  }
 }
 
+/* Scales everything inside .content (where most of the page's content is) */
 @media screen and (min-width: 768px) {
   .content {
     margin: 50px 109px 0 109px;
   }
 }
 
+/* Sets the margin for laptop size */
 @media screen and (min-width: 1024px) {
   .content {
     margin: 50px 172px 0 172px;
   }
 }
 
+/* Sets the margin for desktop size */
 @media screen and (min-width: 1440px) {
   .content {
     margin: 50px 340px 0 340px;
+  }
+}
+
+.openTime {
+  /* Selects all direct children and adds even margin-top on them all */
+  > * {
+    margin: 0 0 37px 0;
+  }
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    margin: 0 0 37px 0;
   }
 }
 
@@ -93,39 +108,43 @@ a {
 
 /* Styles the text's alignment, color and makes sure the text is at full width */
 .hero__text {
-  text-align: center;
-  color: white;
-  width: 100%;
+  text-align: center; /* Shift text's alignment from left to center */
+  color: white; /* Sets the text's color to white */
+  width: 100%; /* Sets the div for the text to fill 100% of the site's width to ensure text does not linebreak */
 }
 
 /* Forside */
 
 .text__element p{
-  margin-top: 5px;
+  margin-top: 5px; /* Adds 5 pixels of margin only on top */
 }
 
+/* Styles the "fredag 11.00 - 14.00" to work like a table */
 .text__element--table {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Turns on flexbox styling */
+  flex-direction: column; /* Sets the direction for all elements in the div to line up vertically */
 
   .text__header {
     display: flex;
     width: 100%;
   }
 
+  /* Sets the direction to be horizontal and centers it */
   .table {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row; /* Sets the direction to be horizontal (the default, but was overwritten previously) */
+    justify-content: center; /* Center aligns on the horizontal axis all content within .table */
     margin-top: 5px;
 
+    /* Right aligns text and adds padding for space */
     .table--left {
-      text-align: right;
+      text-align: right; /* Aligns the text to the right side */
       display: flex;
       padding-right: 5px;
-      font-style: italic;
+      font-style: italic; /* Sets the font to be italicized */
     }
 
+    /* Ensures text is left-aligned and adds padding */
     .table--right {
       text-align: left;
       display: flex;
@@ -134,37 +153,55 @@ a {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .openTime {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .findUs {
+    width: 450px;
+  }
+}
+
+/* Adds distinct text element where text is centered */
 .text__element--centered {
   text-align: center;
   margin: 10px;
 }
 
+/* Centers SoMe icons */
 .SoMe__icons {
   display: flex;
   justify-content: center;
   margin: 5px 0 5px 0;
 }
 
+/* Sets size for SoMe icon */
 .SoMe__icon {
   width: 30px;
   height: 30px;
-  margin: 0 5px 0 5px;
+  margin: 0 5px 0 5px; /* Sets margin for all sides at once (top, right, bottom and left) */
 }
 
+/* Sets style for Google Maps embed to ensure it does not scale indefinitely and break the site */
 .mapEmbed iframe {
-  width: 100%;
-  max-width: 420px;
+  width: 100%; /* Ensures the map scales with screensize */
+  max-width: 420px; /* Sets the width to be no wider than 420 pixels */
   height: 420px;
 }
 
+/* Centers elements in scroll button */
 .scrollUp {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Aligns items within the div on the vertical axis */
 
+  /* Styles the underline */
   .underline {
     width: 75px;
-    background-color: black;
+    background-color: black; /* Sets the line's color to be black (background-color is used for anything not text) */
     height: 1px;
   }
 }
