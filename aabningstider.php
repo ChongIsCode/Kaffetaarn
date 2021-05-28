@@ -99,7 +99,7 @@
     </div>
     <a href="#" class="scrollUp">
         <div class="arrow">
-            awow
+            <img src="images/icons/arrow.png" alt="Scroll up">
         </div>
         <div class="text__header">
             <h2>Scroll up</h2>
