@@ -149,6 +149,11 @@ a {
   }
 }
 
+.button{
+  display: flex;
+  justify-content: center;
+}
+
 .donate-button {
   border: none; /* Fjerner rammen */
   color: white; /* Farven på tekst */
@@ -158,8 +163,11 @@ a {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  position: absolute;
-  left: 25%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Forside */
@@ -228,3 +236,4 @@ a {
     .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
         background-image: none;
     }
+

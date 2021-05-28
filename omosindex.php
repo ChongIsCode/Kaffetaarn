@@ -42,56 +42,61 @@
         <h1>Hvem er vi?</h1>
     </div>
 </div>
-<br>
-<div class="text__element--centered">
-    <h2>Kaffetår'n</h2>
-    <br>
-    <p>Kaffetår’n er en lokal café i hjertet af Nykøbing Falster, i det gamle vandtårn fra 1908.
-        Caféen bliver drevet af Dea Guttman, som åbnede dørene for første gang den 1. april 2020.
-        Kaffetår'n lægger meget vægt på at bruge lokale kvalitets råvare til at lave sine mange
-        hjemmelavede retter og kager. Kaffetår'n sælger selvfølgelig også kaffe, både lys og mørk.</p>
-    <br>
-    <h2>Ejeren Dea</h2>
-</div>
-<br>
 
-<img src="images/Dea.jpg" height="262" width=100%/>
-<div class="text__element--centered">
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua.</p><br>
-</div>
-<button class="donate-button">Donér en genstand</button>
-
-<br><br><br>
-<div class="text__element--centered">
-    <h2>Besøg os</h2>
-    <p>Google maps her</p>
-    <br>
-</div>
-<br>
-
-<div class="text__element">
-    <div class="mapEmbed">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.7488664871507!2d11.866003316031408!3d54.7668020750665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad31a0aa869615%3A0x3fccca125a3597fc!2sKaffet%C3%A5r&#39;N!5e0!3m2!1sda!2sdk!4v1622113303338!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="content">
+    <div class="text__element--centered">
+        <h2>Kaffetår'n</h2>
+        <br>
+        <p>Kaffetår’n er en lokal café i hjertet af Nykøbing Falster, i det gamle vandtårn fra 1908.
+            Caféen bliver drevet af Dea Guttman, som åbnede dørene for første gang den 1. april 2020.
+            Kaffetår'n lægger meget vægt på at bruge lokale kvalitets råvare til at lave sine mange
+            hjemmelavede retter og kager. Kaffetår'n sælger selvfølgelig også kaffe, både lys og mørk.</p>
+        <br>
+        <h2>Ejeren Dea</h2>
     </div>
     <br>
 
-</div>
-<a href="#" class="scrollUp">
-    <div class="arrow">
-        Pil op
-    </div>
-    <div class="text__header">
-        <h2>Scroll up</h2>
-    </div>
-    <div class="underline">
-    </div>
-</a>
+    <div class="container">
+        <img src="images/Dea.jpg" height="262" width=100%/>
+        <div class="text__element--centered">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 
+                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua.</p><br>
+        </div>
+
+        <div class="button">
+            <button class="donate-button">Donér en genstand</button>
+        </div>
+    </div>
+
+    <br>
+    <div class="text__element--centered">
+        <h2>Besøg os</h2>
+        <p>Google maps her</p>
+        <br>
+    </div>
+    <br>
+    <div class="text__element">
+        <div class="mapEmbed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.7488664871507!2d11.866003316031408!3d54.7668020750665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad31a0aa869615%3A0x3fccca125a3597fc!2sKaffet%C3%A5r&#39;N!5e0!3m2!1sda!2sdk!4v1622113303338!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br>
+
+    </div>
+    <a href="#" class="scrollUp">
+        <div class="arrow">
+            Pil op
+        </div>
+        <div class="text__header">
+            <h2>Scroll up</h2>
+        </div>
+        <div class="underline">
+        </div>
+    </a>
+</div>
 
 <script src="js/app.js"></script>
 
