@@ -134,6 +134,8 @@ a {
 
 .mapEmbed iframe {
   width: 100%;
+  max-width: 420px;
+  height: 420px;
 }
 
 .scrollUp {
