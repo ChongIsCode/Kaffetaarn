@@ -59,16 +59,19 @@
     <div class="container">
 
         <div class="items">
-            <img src="images/Dea.jpg" height="262" width=100%/>
+            <img src="images/DSC_0439.jpg" height="262" width=100%/>
         </div>
         <div class="items">
             <div class="text__element--centered">
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    sed diam voluptua.</p><br>
+                <p>
+                    Dea bor i Nysted, tæt ved Nykøbing Falster. Hun startede med at være kunde på caféen,
+                    hos den tidligere ejer. Da den tidligere ejer af Caféen stoppede, fik Dea tilbuddet om at købe caféen,
+                    hvilket hun egentlig ikke havde interesse for i starten.<br>
+                    Dea åbnede for aller første gang sin café d. 1 April 2020,
+                    og her har Dea givet sine kunder den bedste og mest autentiske oplevelse, hendes kunder kan få i caféen.
+                    Hun sætter stor fokus på at kunden skal have det godt, når kunden går ud af døren igen.<br>
+                    Dea ser sig selv om en servicemindet, varm og åben ung kvinde, som gerne vil have at caféen også signalere dette.
+                </p><br>
             </div>
         </div>
 
@@ -93,8 +96,9 @@
     </div>
     <a href="#" class="scrollUp">
         <div class="arrow">
-            Pil op
+            <img src="images/icons/arrow.png" alt="Scroll up">
         </div>
+
         <div class="text__header">
             <h2>Scroll up</h2>
         </div>
