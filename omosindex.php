@@ -84,16 +84,18 @@
     <div class="text__element--centered">
         <h2>Besøg os</h2>
         <p>Google maps her</p>
-        <br>
     </div>
     <br>
-    <div class="text__element">
-        <div class="mapEmbed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.7488664871507!2d11.866003316031408!3d54.7668020750665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad31a0aa869615%3A0x3fccca125a3597fc!2sKaffet%C3%A5r&#39;N!5e0!3m2!1sda!2sdk!4v1622113303338!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+    <div class="map">
         <br>
-
+        <div class="text__element">
+            <div class="mapEmbed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.7488664871507!2d11.866003316031408!3d54.7668020750665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad31a0aa869615%3A0x3fccca125a3597fc!2sKaffet%C3%A5r&#39;N!5e0!3m2!1sda!2sdk!4v1622113303338!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <br>
+        </div>
     </div>
+
     <a href="#" class="scrollUp">
         <div class="arrow">
             <img src="images/icons/arrow.png" alt="Scroll up">
