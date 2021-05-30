@@ -339,3 +339,70 @@ a {
         background-image: none;
     }
 
+
+
+
+
+    /* Menu siden */
+
+.menu-kort{
+  padding-top: 8vh;
+}
+
+.menu-kort__overskrift{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.menu-kort__under-overskrit{
+  font-size: 16px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .dish__container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish__content{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 680px;
+  }
+
+}
+
+
+.dish{
+  .dish__header{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish__info{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish__pris{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+}
+
+
