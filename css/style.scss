@@ -318,17 +318,28 @@ a {
 }
 
 .grid {
-  grid-template-rows:
-    minmax(70px, auto)
-    minmax(70px, auto)
-    minmax(100px, auto)
-    minmax(100px, auto)
-    minmax(85px, auto)
-    minmax(85px, auto)
-    minmax(85px, auto);
   display: grid;
+  grid-template-rows:
+    minmax(400px, auto)
+    minmax(400px, auto)
+    minmax(400px, auto)
+    minmax(400px, auto)
+    minmax(400px, auto)
+    minmax(400px, auto);
 }
 
+@media screen and (min-width: 500px) {
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+        "img1 img2 img3"
+        "img4 img5 morepics";
+}
+}
+
+.gallery {
+  height: 400px;
+}
 
 .swiper-container {
     width: 100%;

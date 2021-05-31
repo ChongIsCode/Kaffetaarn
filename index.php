@@ -136,6 +136,8 @@
             <img src="images/front.png" alt="">
             <img src="images/front.png" alt="">
             <img src="images/front.png" alt="">
+            <img src="images/front.png" alt="">
+            <img src="images/front.png" alt="">
             <div class="gallery__container">
                 <h1>Se flere billeder</h1>
             </div>
