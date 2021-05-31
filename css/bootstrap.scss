@@ -14,8 +14,11 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff
+        "kgrey": #F5F0EF,
+        "kred": #DB3742,
+        "klbrown": #8C584A
 );
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
