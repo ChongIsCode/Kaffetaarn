@@ -1,6 +1,8 @@
 <footer>
-    <div class="logo">
-        <a href="#"><img src="images/logo/Kaffetaarn_wordmark.jpg" alt="Kaffetaarn Wordmark"></a>
+    <div class="logo__container">
+        <div class="logo">
+            <img src="images/logo/Kaffetaarn_wordmark.jpg" alt="Kaffetaarn Wordmark">
+        </div>
     </div>
     <div class="text__element">
         <p>

@@ -1,6 +1,15 @@
 footer {
     height: 350px;
-    background-color: #F5F0EF;
+    background-color: red;
+
+    .logo {
+    width: 135px;
+
+        img {
+            width: 10px;
+            height: auto;
+        }
+    }
 
     .text__element--table {
         display: flex; /* Turns on flexbox styling */
