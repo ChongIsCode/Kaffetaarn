@@ -225,7 +225,12 @@ a {
   }
 }
 
-/* Sets size for SoMe icon */
+@media screen and (min-width: 768px) {
+  .GoogleMap__container {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 /* Sets style for Google Maps embed to ensure it does not scale indefinitely and break the site */
@@ -247,6 +252,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center; /* Aligns items within the div on the vertical axis */
+  margin: 25px 0 25px 0;
 
   /* Styles the underline */
   .underline {
