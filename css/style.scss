@@ -279,15 +279,56 @@ a {
 }
 
 /* Forside */
-.info {
-  .info__container {
-    .info__section {
-      h2 {
-        font-size: 30px;
-      }
+.info__section {
+  background-color: #kgrey;
+  height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bp__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0 45px 0;
+
+  .bp__img {
+    width: 50%;
+    margin-bottom: 20px;
+
+    img {
+      border-radius: 50%;
     }
   }
+
+  .quote--small {
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+  }
+
+  .text__element {
+    text-align: center;
+    width: 50%;
+  }
 }
+
+.grid {
+  grid-template-rows:
+    minmax(70px, auto)
+    minmax(70px, auto)
+    minmax(100px, auto)
+    minmax(100px, auto)
+    minmax(85px, auto)
+    minmax(85px, auto)
+    minmax(85px, auto);
+  display: grid;
+}
+
 
 .swiper-container {
     width: 100%;
