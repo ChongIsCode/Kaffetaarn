@@ -56,12 +56,11 @@
     </div>
     <br>
 
-    <div class="container">
-
-        <div class="items">
+    <div class="grid">
+        <div id="billede">
             <img src="images/DSC_0439.jpg" height="262" width=100%/>
         </div>
-        <div class="items">
+        <div id="omdea">
             <div class="text__element--centered">
                 <p>
                     Dea bor i Nysted, tæt ved Nykøbing Falster. Hun startede med at være kunde på caféen,
@@ -74,11 +73,14 @@
                 </p><br>
             </div>
         </div>
-
-        <div class="button">
-            <button class="donate-button">Donér en genstand</button>
+        <div id="knap">
+            <div class="button">
+                <button class="donate-button">Donér en genstand</button>
+            </div>
         </div>
     </div>
+</div>
+
     <br>
     <div class="map">
         <div class="text__element--centered">

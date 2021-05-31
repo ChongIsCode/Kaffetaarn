@@ -57,10 +57,28 @@ a {
   margin: 37px 37px 0 37px;
 }
 
+
 /* Scales everything inside .content (where most of the page's content is) */
 @media screen and (min-width: 768px) {
   .content {
     margin: 50px 109px 0 109px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
+    grid-template-areas: "billede billede omdea omdea"
+                        ". knap knap .";}
+
+  #billede{
+    margin-right: 10px;
+    grid-area: billede;
+  }
+  #omdea{
+    grid-area: omdea;
+  }
+  #knap{
+    grid-area: knap;
   }
 }
 
@@ -74,7 +92,7 @@ a {
 /* Sets the margin for desktop size */
 @media screen and (min-width: 1200px) {
   .content {
-    margin: 50px 340px 0 340px;
+    margin: 50px 300px 0 300px;
 
     .content__contactUs {
       display: flex;
@@ -85,6 +103,23 @@ a {
         margin: 0 0 37px 0;
       }
     }
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
+    grid-template-areas: "billede billede omdea omdea"
+                          ". . knap knap";}
+
+  #billede{
+    margin-right: 10px;
+    grid-area: billede;
+  }
+  #omdea{
+    grid-area: omdea;
+  }
+  #knap{
+    grid-area: knap;
   }
 }
 
