@@ -1,19 +1,24 @@
 footer {
-    height: 350px;
-    background-color: red;
+    height: auto;
+    padding: 37px 37px 10px 37px;
+    background-color: #F5F0EF;
+    color: #8C5749;
 
     .logo {
-    width: 135px;
-
         img {
-            width: 10px;
+            width: 150px;
             height: auto;
         }
+    }
+
+    .text__element {
+        margin: 20px 0 20px 0;
     }
 
     .text__element--table {
         display: flex; /* Turns on flexbox styling */
         flex-direction: column; /* Sets the direction for all elements in the div to line up vertically */
+        margin: 25px 0 25px 0;
 
         .text__header {
             display: flex;
@@ -45,19 +50,26 @@ footer {
     }
 
     .footer__SoMe {
+        margin: 40px 0 20px 0;
+
         .SoMe__icons {
             display: flex;
             justify-content: center;
-            margin: 5px 0 5px 0;
 
             .SoMe__icon {
                 width: 30px;
                 height: 30px;
-                margin: 0 5px 0 5px; /* Sets margin for all sides at once (top, right, bottom and left) */
+                margin: 0 7px 0 7px; /* Sets margin for all sides at once (top, right, bottom and left) */
             }
         }
     }
+
+    .copyright {
+        margin-bottom: 10px;
+
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
 }
-
-
-

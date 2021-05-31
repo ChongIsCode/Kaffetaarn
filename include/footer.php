@@ -1,13 +1,13 @@
 <footer>
     <div class="logo__container">
         <div class="logo">
-            <img src="images/logo/Kaffetaarn_wordmark.jpg" alt="Kaffetaarn Wordmark">
+            <img src="images/logo/Kaffetaarn_wordmark.svg" alt="Kaffetaarn Wordmark">
         </div>
     </div>
     <div class="text__element">
         <p>
             Hollands Gaard
-            Latinerkvarteret, Nykøbing F
+            <br>Latinerkvarteret, Nykøbing F
         </p>
     </div>
     <div class="text__element">
