@@ -23,11 +23,11 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1
-    ,600;1,700;1,800&display=swap" rel="stylesheet">
+    ,600;1,700;1,800&display=swap" rel="stylesheet"> <!-- Importere Open Sans font -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;
-    1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- Importere Playfair Diplay font -->
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,8 +75,33 @@
         </div>
         <div id="knap">
             <div class="button">
-                <button class="donate-button">Donér en genstand</button>
+                <button onclick="togglePopup()" class="donate-button">Donér en genstand</button>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup()" class="donate-button">×</div>
+        <h3>Donér en genstand til<br></h3>
+        <h2>Kaffetår'n</h2>
+        <br>
+        <p>Tusind tak for at du vil donere<br>
+            én af dine egne genstande til caféen!<br>
+            <br>
+            Kontakt caféen vha. kontakt
+            informationerne under:</p>
+            <br>
+        <h3>Kontakt os</h3>
+        <p>
+            Tlf. nummer: 93 94 64 54
+        </p><br>
+        <div class="SoMe__icons">
+            <a href="#"><img src="images/icons/facebook.svg" alt="#"></a>
+            <a href="#"><img src="images/icons/instagram.svg" alt="#"></a>
+            <a href="#"><img src="images/icons/tripadvisor.svg" alt="#"></a>
         </div>
     </div>
 </div>
@@ -110,6 +135,11 @@
 </div>
 
 <script src="js/app.js"></script>
+<script>
+    function togglePopup(){
+        document.getElementById("popup-1").classList.toggle("active");
+    }
+</script>
 
 </body>
 </html>
