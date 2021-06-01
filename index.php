@@ -174,7 +174,10 @@
         </div>
     </section>
 
-    <section class="swiper">
+    <section class="reviews">
+        <div class="text__header">
+            <h2>Hvad siger mine kunder</h2>
+        </div>
         <?php include 'include/swiper.php'?>
     </section>
 </div>

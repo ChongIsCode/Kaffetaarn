@@ -531,92 +531,102 @@ a {
   }
 }
 
-.swiper-container {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.reviews {
+  .text__header {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 1.5em;
+  }
 
-  .swiper-slide {
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .swiper-slide {
       background-position: center;
       background-size: cover;
       width: 320px;
       background: #f1f1f1;
-  }
+    }
 
-  .testa-box {
-    position: relative;
-    width: 100%;
-    padding: 40px;
-    background-color: #F5F0EF;
-    box-shadow: 0 0 16px -9px rgba(0,0,0,0.25);
+    .testa-box {
+      position: relative;
+      width: 100%;
+      padding: 40px;
+      background-color: #F5F0EF;
+      box-shadow: 0 0 16px -9px rgba(0,0,0,0.25);
 
 
-    .testa-content {
+      .testa-content {
 
-      .testa-details {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-
-        .testa-person {
+        .testa-details {
           display: flex;
-          height: 60px;
+          align-items: center;
+          flex-direction: column;
 
-          .img-box {
-            width: 60px;
+          .testa-person {
+            display: flex;
             height: 60px;
-            border-radius: 50%;
-            overflow: hidden;
 
-            img {
+            .img-box {
               width: 60px;
               height: 60px;
-              object-fit: cover;
-            }
-          }
+              border-radius: 50%;
+              overflow: hidden;
 
-          .person-info {
-            margin-left: 10px;
-
-            > * {
-              margin-top: 2px;
-            }
-
-            .name-container {
-              display: flex;
-              align-items: baseline;
-
-              .name h3 {
-                margin: 0;
-                color: black;
-                font-family: "Open Sans", sans-serif;
-                font-weight: bold;
-                letter-spacing: 1px;
+              img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
               }
             }
 
-            .date p{
-              font-size: 12px;
-              color: black;
+            .person-info {
+              margin-left: 10px;
+
+              > * {
+                margin-top: 2px;
+              }
+
+              .name-container {
+                display: flex;
+                align-items: baseline;
+
+                .name h3 {
+                  margin: 0;
+                  color: black;
+                  font-family: "Open Sans", sans-serif;
+                  font-weight: bold;
+                  letter-spacing: 1px;
+                }
+              }
+
+              .date p{
+                font-size: 12px;
+                color: black;
+              }
+            }
+
+            .underline {
+              width: 180px;
+              background-color: black;
+              height: 1px;
             }
           }
 
-          .underline {
-            width: 180px;
-            background-color: black;
-            height: 1px;
+          .person-text {
+            font-size: 16px;
+            margin-top: 10px;
           }
-        }
-
-        .person-text {
-          font-size: 16px;
-          margin-top: 10px;
         }
       }
     }
   }
-
 }
+
+
+
 .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
   background-image: none;
 }
