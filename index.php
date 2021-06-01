@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     
@@ -91,7 +92,6 @@
     <section class="bulletpoints">
         <div class="text__header">
             <h2>Vi tilbyder</h2>
-
         </div>
         <div class="bp__container">
             <div class="bp__wrap">
@@ -145,7 +145,6 @@
         </div>
     </section>
 
-
     <section class="gallery">
         <div class="container">
             <div class="row">
@@ -175,17 +174,18 @@
         </div>
     </section>
 
-
     <section class="swiper">
         <?php include 'include/swiper.php'?>
     </section>
 </div>
 
 
-    <!-- Scripting til swiper dims -->
-    <script src="js/app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
+<!-- Script links til swiper -->
+<script src="js/app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Script stads til swiper og forside dims -->
+<script>
     var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
         grabCursor: true,
@@ -226,7 +226,7 @@
     }
     </script>
 
-
+<?php include 'include/footer.php'?>
 
 </body>
 </html>
