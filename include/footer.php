@@ -1,37 +1,43 @@
 <footer>
-    <div class="logo__container">
-        <div class="logo">
-            <img src="images/logo/Kaffetaarn_wordmark.svg" alt="Kaffetaarn Wordmark">
-        </div>
-    </div>
-    <div class="text__element">
-        <p>
-            Hollands Gaard
-            <br>Latinerkvarteret, Nykøbing F
-        </p>
-    </div>
-    <div class="text__element">
-        <p>
-            Tlf. nummer: 93 94 64 54
-        </p>
-    </div>
-    <div class="text__element--table">
-        <div class="table">
-            <div class="table--left">
+    <div class="footer__container">
+        <div class="footer__section">
+            <div class="logo__container">
+                <div class="logo">
+                    <img src="images/logo/Kaffetaarn_wordmark.svg" alt="Kaffetaarn Wordmark">
+                </div>
+            </div>
+            <div class="text__element">
                 <p>
-                    tirsdag - torsdag
-                    <br>fredag
-                    <br>lørdag
-                    <br>søndag - mandag
+                    Hollands Gaard
+                    <br>Latinerkvarteret, Nykøbing F
                 </p>
             </div>
-            <div class="table--right">
+            <div class="text__element">
                 <p>
-                    11.00 - 14.00
-                    <br>11.00 - 15.30
-                    <br>10.00 - 15.00
-                    <br>LUKKET
+                    Tlf. nummer: 93 94 64 54
                 </p>
+            </div>
+        </div>
+        <div class="footer__section">
+            <div class="text__element--table">
+                <div class="table">
+                    <div class="table--left">
+                        <p>
+                            tirsdag - torsdag
+                            <br>fredag
+                            <br>lørdag
+                            <br>søndag - mandag
+                        </p>
+                    </div>
+                    <div class="table--right">
+                        <p>
+                            11.00 - 14.00
+                            <br>11.00 - 15.30
+                            <br>10.00 - 15.00
+                            <br>LUKKET
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
