@@ -66,7 +66,7 @@ a {
 /* Scales everything inside .content (where most of the page's content is) */
 @media screen and (min-width: 768px) {
   .content {
-    margin: 50px 109px 0 109px;
+    margin: 50px 60px 0 60px;
   }
   .grid{
     display: grid;
@@ -90,14 +90,17 @@ a {
 /* Sets the margin for laptop size */
 @media screen and (min-width: 1024px) {
   .content {
-    margin: 50px 172px 0 172px;
+    margin: 50px 100px 0 100px;
+  }
+  .p{
+    font-size: x-small;
   }
 }
 
 /* Sets the margin for desktop size */
 @media screen and (min-width: 1200px) {
   .content {
-    margin: 50px 300px 0 300px;
+    margin: 50px 160px 0 160px;
 
     .content__contactUs {
       display: flex;
@@ -114,7 +117,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
     grid-template-areas: "billede billede omdea omdea"
-                          ". . knap knap";}
+                          "knap knap . .";}
 
   #billede{
     margin-right: 10px;
