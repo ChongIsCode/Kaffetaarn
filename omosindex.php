@@ -73,18 +73,18 @@
                 </p><br>
             </div>
         </div>
-        <div id="knap">
+        <div id="knap"> <!-- ID'et til denne knap, som skal stå i grid -->
             <div class="button">
-                <button onclick="togglePopup()" class="donate-button">Donér en genstand</button>
+                <button onclick="togglePopup()" class="donate-button">Donér en genstand</button> <!-- togglePopup er den kasse der kommer, når du trykke på knappen -->
             </div>
         </div>
     </div>
 </div>
 
 <div class="popup" id="popup-1">
-    <div class="overlay"></div>
+    <div class="overlay"></div> <!-- Overlayet af kassen der kommer, og dets indhold på denne kasse -->
     <div class="content">
-        <div class="close-btn" onclick="togglePopup()" class="donate-button">×</div>
+        <div class="close-btn" onclick="togglePopup()" class="donate-button">×</div> <!-- Dette sørger for at der er et X på kassen -->
         <h3>Donér en genstand til<br></h3>
         <h2>Kaffetår'n</h2>
         <br>
@@ -110,7 +110,6 @@
     <div class="map">
         <div class="text__element--centered">
             <h2>Besøg os</h2>
-            <p>Google maps her</p>
         </div>
         <br>
         <div class="text__element">
