@@ -69,24 +69,6 @@ a {
   .content {
     margin: 50px 40px 0 40px;
   }
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
-    grid-template-areas: "billede billede omdea omdea"
-                        ". knap knap .";}
-
-  #billede{
-    margin-right: 10px;
-    grid-area: billede;
-  }
-  #omdea{
-    grid-area: omdea;
-  }
-  #knap{
-    grid-area: knap;
-    padding: 20px;
-  }
 }
 
 /* Sets the margin for laptop size */
@@ -114,7 +96,7 @@ a {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
       grid-template-areas: "billede billede omdea omdea"
-                            "knap knap . .";}
+                            ". knap knap .";}
 
     #billede{
       margin-right: 10px;
