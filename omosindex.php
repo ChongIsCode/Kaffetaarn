@@ -32,6 +32,7 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kontakt holdet bag Kaffetår'n! Donér gerne dine brugte genstande og kom forbi.">
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -59,7 +60,7 @@
 
     <div class="grid">
         <div id="billede">
-            <img src="images/DSC_0439.jpg" height="262" width=100%/>
+            <img src="images/DSC_0439.jpg" alt="Dea" height="262" width=100%/>
         </div>
         <br>
         <div id="omdea">
