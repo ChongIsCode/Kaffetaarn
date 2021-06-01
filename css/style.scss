@@ -60,8 +60,8 @@ a {
 /* Ensures content on page has proper spacing on sides and top */
 .content {
   margin: 37px 37px 0 37px;
+  padding-top: 8vh;
 }
-
 
 /* Scales everything inside .content (where most of the page's content is) */
 @media screen and (min-width: 768px) {
@@ -275,6 +275,12 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .GoogleMap {
+    width: 420px;
+  }
+}
+
 /* Sets style for Google Maps embed to ensure it does not scale indefinitely and break the site */
 .mapEmbed iframe {
   width: 100%; /* Ensures the map scales with screensize */
@@ -314,15 +320,14 @@ a {
   color: white; /* Farven på tekst */
   cursor: pointer; /* Effekten der er på knappen når musen hover/trykker */
   background-color: #DB3742; /* Den røde farve */
-  padding: 15px 32px;
+  padding: 12px 22px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
 }
 
 /* Forside */
 .info__section {
-  background-color: #kgrey;
+  background-color: #F5F0EF;
   height: 340px;
   width: 100%;
   display: flex;
@@ -357,30 +362,6 @@ a {
     text-align: center;
     width: 50%;
   }
-}
-
-.grid {
-  display: grid;
-  grid-template-rows:
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto);
-}
-
-@media screen and (min-width: 500px) {
-.grid {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-        "img1 img2 img3"
-        "img4 img5 morepics";
-}
-}
-
-.gallery {
-  height: 400px;
 }
 
 .swiper-container {
@@ -465,9 +446,6 @@ a {
   margin-bottom: 20px;
   text-align: center;
 }
-
-
-
 
 @media screen and (min-width: 768px) {
   .dish__container{
@@ -555,14 +533,43 @@ a {
   transform:translate(-50%,-50%) scale(1);
 }
 
-button {
+.button {
   display: flex;
   justify-content: center;
-  padding:15px;
-  font-size:18px;
-  border:2px solid #222;
-  color:#222;
-  text-transform:uppercase;
-  font-weight:600;
-  background:#fff;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+
+  a {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.front {
+  padding-top: 8vh;
+}
+
+.video--wrapper{
+  position: relative;
+  height: 100vh;
+}
+
+.video{
+  position: absolute;
+  opacity: 0;
+}
+
+.video.active{
+  opacity: 1;
+}
+
+.col-sm-4 img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
 }
