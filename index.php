@@ -25,7 +25,7 @@
     </div>
 </section>
 
-<div class="content">
+<div class="content--front">
     <section class="info">
         <div class="info__container">
             <div class="info__section">
@@ -53,7 +53,10 @@
         <div class="info__container">
             <img src="images/front.png" alt="">
             <div class="info__section">
-                <h2>Menu</h2>
+                <div class="quote--caps">
+                    <h2>MENU</h2>
+                </div>
+                <h4>Vores er mad er lokal og økologisk</h4>
                 <p>Kaffetår'n lægger meget vægt på at bruge 
                     lokale kvalitets råvare til at lave sine mange 
                     hjemmelavede retter og kager. Kaffetår'n 

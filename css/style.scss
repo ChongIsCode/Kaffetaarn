@@ -324,105 +324,6 @@ a {
   text-decoration: none;
 }
 
-/* Forside */
-.info__section {
-  background-color: #F5F0EF;
-  height: 340px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.bp__wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 45px 0 45px 0;
-
-  .bp__img {
-    width: 50%;
-    margin-bottom: 20px;
-
-    img {
-      border-radius: 50%;
-    }
-  }
-
-  .quote--small {
-    font-style: italic;
-    width: 50%;
-    text-align: center;
-  }
-
-  .text__element {
-    text-align: center;
-    width: 50%;
-  }
-}
-
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 320px;
-        background: #f1f1f1;
-        box-shadow: 0 15px 50px rgba(0,0,0,0.2);
-        }
-
-        .testa-box {
-            position: relative;
-            width: 100%;
-            padding: 40px;
-            .testa-content {
-                .testa-details {
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
-                    .img-box {
-                        position: relative;
-                        width: 80px;
-                        height: 80px;
-                        border-radius: 50%;
-                        overflow: hidden;
-                        img {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                        }
-                    }
-                    h3 {
-                        margin: 20px 0;
-                        font-size: 16px;
-                        font-weight: 400;
-                        letter-spacing: 1px;
-                        color: #2196f3;
-                    }
-                    p {
-                        color: #999;
-                    }
-    
-                }
-            }
-        }
-        
-    }
-    .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
-        background-image: none;
-    }
-
-
-
-
-
     /* Menu siden */
 
 .menu-kort{
@@ -545,6 +446,13 @@ a {
   }
 }
 
+/* Forside */
+
+.content--front {
+  padding: 37px 0 0 0;
+  padding-top: 8vh;
+}
+
 .front {
   padding-top: 8vh;
 }
@@ -563,6 +471,124 @@ a {
   opacity: 1;
 }
 
+.info__section {
+  background-color: #F5F0EF;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 37px;
+
+  h4 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .text__element {
+    margin: 20px 0;
+  }
+}
+
+.bulletpoints {
+  .text__header {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 1.5em;
+  }
+
+  .bp__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0 45px 0;
+
+    .bp__img {
+      width: 50%;
+      margin-bottom: 20px;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .quote--small {
+      font-style: italic;
+      width: 50%;
+      text-align: center;
+      font-size: 1.375em;
+    }
+
+    .text__element {
+      text-align: center;
+      width: 70%;
+    }
+  }
+}
+
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 320px;
+      background: #f1f1f1;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+  }
+
+  .testa-box {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    .testa-content {
+      .testa-details {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .img-box {
+          position: relative;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        h3 {
+          margin: 20px 0;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 1px;
+          color: #2196f3;
+        }
+        p {
+          color: #999;
+        }
+
+      }
+    }
+  }
+
+}
+.swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
+  background-image: none;
+}
+
 .col-sm-4 img {
   height: 350px;
   object-fit: cover;
@@ -572,3 +598,8 @@ a {
   font-size: 1.5em;
   font-style: italic;
 }
+
+.quote--caps {
+  font-size: 1.5em;
+}
+
