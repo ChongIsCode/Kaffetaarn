@@ -15,6 +15,7 @@
     <title>Kaffetår'N</title>
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -553,5 +554,6 @@
                         </div>
                     </div>
 
+                        <?php include 'include/footer.php'?>
 </body>
 </html>
