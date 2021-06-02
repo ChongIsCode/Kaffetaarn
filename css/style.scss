@@ -464,7 +464,6 @@ a {
 }
 
 .dish{
-  width: 260px;
 
   .dish__header{
     font-size: 20px;
@@ -485,6 +484,27 @@ a {
     justify-content: center;
     margin-bottom: 25px;
   }
+}
+
+.menu__links__boks{
+  display: flex;
+  justify-content: center;
+}
+
+.menu__links{
+  font-size: 25px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+
+  a{
+    font-family: "Playfair Display", sans-serif;
+  }
+
 }
 
 
