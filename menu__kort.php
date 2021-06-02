@@ -22,6 +22,11 @@
 <?php include 'include/menu.php'?>
 
 <div class="menu-kort">
+
+    <div class="uge">
+        Menu - Uge 22
+    </div>
+
     <div class="menu__links__boks">
         <div class="menu__links">
             <a href="#specials">Specials</a>
