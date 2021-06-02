@@ -14,10 +14,20 @@
 
 <div class="menu-kort">
 
+    <div class="menu__links">
+        <a href="#specials">Specials</a>
+        <a href="#hjemmelavede__sandwiches">Hjemmelavede sandwiches</a>
+        <a href="#kaffe__varme-drikke">Kaffe/varme drikke</a>
+        <a href="#kolde-drikkevare">Kolde drikke</a>
+        <a href="#kager">Kager</a>
+        <a href="#diverse">Diverse</a>
+
+    </div>
+
     <!-- Specials -->
     <div class="menu-kort__dishes">
        <div class="menu-kort__main">
-        <div class="menu-kort__overskrift">
+        <div id="specials" class="menu-kort__overskrift">
             Specials
         </div>
 
@@ -60,7 +70,7 @@
     <!-- Sandwiches -->
         <div class="menu-kort__dishes">
             <div class="menu-kort__main">
-                <div class="menu-kort__overskrift">
+                <div id="hjemmelavede__sandwiches" class="menu-kort__overskrift">
                     Hjemmelavede sandwiches
                 </div>
 
@@ -174,7 +184,7 @@
     <!-- Kaffe og varme drikke -->
         <div class="menu-kort__dishes">
             <div class="menu-kort__main">
-                <div class="menu-kort__overskrift">
+                <div id="kaffe__varme-drikke" class="menu-kort__overskrift">
                     Kaffe og varme drikke
                 </div>
 
@@ -260,17 +270,87 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 
-            <!-- Kaffe og varme drikke -->
+        <!-- Drikkevare -->
+        <div class="menu-kort__dishes">
+            <div class="menu-kort__main">
+                <div id="kolde-drikkevare" class="menu-kort__overskrift">
+                    Drikkevare
+                </div>
+
+                <div class="menu-kort__under-overskrit">
+                    Alle drikkevare kan nydes afkølet
+                </div>
+            </div>
+
+            <div class="dish__container">
+                <div class="dish__content">
+                    <div class="dish">
+                        <div class="dish__header">
+                            ● Sodavand ●
+                        </div>
+
+                        <div class="dish__info">
+                            Fanta / Coca Cola / Pepsi / Faxe Kondi / Schweppes
+                        </div>
+
+                        <div class="dish__pris">
+                            25,-
+                        </div>
+                    </div>
+
+
+
+                    <div class="dish">
+                        <div class="dish__header">
+                            ● Økologisk saft ●
+                        </div>
+
+                        <div class="dish__pris">
+                            30,-
+                        </div>
+                    </div>
+
+
+
+                    <div class="dish">
+                        <div class="dish__header">
+                            ● Saft fra Møns bryggeri ●
+                        </div>
+
+                        <div class="dish__pris">
+                            30,-
+                        </div>
+                    </div>
+
+
+
+                    <div class="dish">
+                        <div class="dish__header">
+                            ● Vand ●
+                        </div>
+
+                        <div class="dish__pris">
+                            20,-
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+            <!-- Kager -->
             <div class="menu-kort__dishes">
                 <div class="menu-kort__main">
-                    <div class="menu-kort__overskrift">
-                        Kaffe og varme drikke
+                    <div id="kager" class="menu-kort__overskrift">
+                        Kager
                     </div>
 
                     <div class="menu-kort__under-overskrit">
-                        Alt kaffe er frisk brygget med kvalitets bønner
+                        Alle kager er hjemmelavet
                     </div>
                 </div>
 
@@ -278,11 +358,11 @@
                     <div class="dish__content">
                         <div class="dish">
                             <div class="dish__header">
-                                ● Sort kaffe ●
+                                ● Lemon merengue pie ●
                             </div>
 
                             <div class="dish__pris">
-                                35,-
+                                20,-
                             </div>
                         </div>
 
@@ -290,11 +370,11 @@
 
                         <div class="dish">
                             <div class="dish__header">
-                                ● Iskaffe ●
+                                ● Amerikanske chokolade cookies ●
                             </div>
 
                             <div class="dish__pris">
-                                45,-
+                                20,-
                             </div>
                         </div>
 
@@ -302,58 +382,168 @@
 
                         <div class="dish">
                             <div class="dish__header">
-                                ● Caffé latte ●
-                            </div>
-
-                            <div class="dish__pris">
-                                35,-
-                            </div>
-                        </div>
-
-
-
-                        <div class="dish">
-                            <div class="dish__header">
-                                ● Chai latte ●
-                            </div>
-
-                            <div class="dish__pris">
-                                35,-
-                            </div>
-                        </div>
-
-
-
-                        <div class="dish">
-                            <div class="dish__header">
-                                ● The ●
-                            </div>
-
-                            <div class="dish__pris">
-                                45,-
-                            </div>
-                        </div>
-
-
-
-                        <div class="dish">
-                            <div class="dish__header">
-                                ● Varm kakao ●
+                                ● Fragilite ●
                             </div>
 
                             <div class="dish__info">
-                                med flødeskum
+                                glutenfri
                             </div>
 
                             <div class="dish__pris">
-                                45,-
+                                15,-
+                            </div>
+                        </div>
+
+
+
+                        <div class="dish">
+                            <div class="dish__header">
+                                ● Hindbær drøm ●
+                            </div>
+
+                            <div class="dish__info">
+                                glutenfri
+                            </div>
+
+                            <div class="dish__pris">
+                                30,-
+                            </div>
+                        </div>
+
+
+                        <div class="dish">
+                            <div class="dish__header">
+                                ● Citron fromage ●
+                            </div>
+
+                            <div class="dish__info">
+                                glutenfri
+                            </div>
+
+                            <div class="dish__pris">
+                                30,-
+                            </div>
+                        </div>
+
+
+                        <div class="dish">
+                            <div class="dish__header">
+                                ● Florentiner ●
+                            </div>
+
+                            <div class="dish__info">
+                                glutenfri
+                            </div>
+
+                            <div class="dish__pris">
+                                20,-
+                            </div>
+                        </div>
+
+
+                        <div class="dish">
+                            <div class="dish__header">
+                                ● Hindbærsnitte ●
+                            </div>
+
+                            <div class="dish__info">
+                                glutenfri
+                            </div>
+
+                            <div class="dish__pris">
+                                20,-
+                            </div>
+                        </div>
+
+
+                        <div class="dish">
+                            <div class="dish__header">
+                                ● Sara Bernard ●
+                            </div>
+
+                            <div class="dish__info">
+                                glutenfri
+                            </div>
+
+                            <div class="dish__pris">
+                                25,-
                             </div>
                         </div>
                     </div>
                 </div>
 
-        </div>
 
+
+                <!-- Diverse -->
+                <div class="menu-kort__dishes">
+                    <div class="menu-kort__main">
+                        <div id="diverse" class="menu-kort__overskrift">
+                            Diverse
+                        </div>
+
+                        <div class="menu-kort__under-overskrit">
+                            ...
+                        </div>
+                    </div>
+
+                    <div class="dish__container">
+                        <div class="dish__content">
+                            <div class="dish">
+                                <div class="dish__header">
+                                    ● Lollandsk quinoa salat ●
+                                </div>
+
+                                <div class="dish__info">
+                                    med div. bønner / kål / gulerod / ristede kikærter
+                                    og mandler
+                                </div>
+
+                                <div class="dish__pris">
+                                    75,-
+                                </div>
+                            </div>
+
+
+
+                            <div class="dish">
+                                <div class="dish__header">
+                                    ● Buddah bowl salat ●
+                                </div>
+
+                                <div class="dish__info">
+                                    med quinoa / forskelligt grønt
+                                </div>
+
+                                <div class="dish__pris">
+                                    65,-
+                                </div>
+                            </div>
+
+
+
+                            <div class="dish">
+                                <div class="dish__header">
+                                    ● Pølsehorn ●
+                                </div>
+
+                                <div class="dish__pris">
+                                    20,-
+                                </div>
+                            </div>
+
+
+
+                            <div class="dish">
+                                <div class="dish__header">
+                                    ● Pizzasnegl ●
+                                </div>
+
+                                <div class="dish__pris">
+                                    20,-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 </body>
 </html>

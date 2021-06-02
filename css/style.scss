@@ -319,7 +319,7 @@ a {
 
 /* Forside */
 .info__section {
-  background-color: #kgrey;
+  background-color: grey;
   height: 340px;
   width: 100%;
   display: flex;
@@ -451,7 +451,7 @@ a {
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .menu-kort__under-overskrit{
@@ -463,7 +463,29 @@ a {
   text-align: center;
 }
 
+.dish{
+  width: 260px;
 
+  .dish__header{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish__info{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .dish__pris{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+}
 
 
 @media screen and (min-width: 768px) {
@@ -476,31 +498,16 @@ a {
     display: flex;
     justify-content: space-evenly;
     max-width: 680px;
+    flex-wrap: wrap;
+  }
+
+  .dish{
+    width: 340px;
   }
 
 }
 
 
-.dish{
-  .dish__header{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .dish__info{
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .dish__pris{
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-  }
-}
 
 .popup .overlay {
   position:fixed;
