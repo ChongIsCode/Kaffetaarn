@@ -20,6 +20,7 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1
@@ -60,6 +61,7 @@
         <div id="billede">
             <img src="images/DSC_0439.jpg" height="262" width=100%/>
         </div>
+        <br>
         <div id="omdea">
             <div class="text__element--centered">
                 <p>
@@ -68,23 +70,26 @@
                     hvilket hun egentlig ikke havde interesse for i starten.<br>
                     Dea åbnede for aller første gang sin café d. 1 April 2020,
                     og her har Dea givet sine kunder den bedste og mest autentiske oplevelse, hendes kunder kan få i caféen.
+                </p><br>
+                <p>
                     Hun sætter stor fokus på at kunden skal have det godt, når kunden går ud af døren igen.<br>
                     Dea ser sig selv om en servicemindet, varm og åben ung kvinde, som gerne vil have at caféen også signalere dette.
                 </p><br>
             </div>
         </div>
-        <div id="knap">
+        <br>
+        <div id="knap"> <!-- ID'et til denne knap, som skal stå i grid -->
             <div class="button">
-                <button onclick="togglePopup()" class="donate-button">Donér en genstand</button>
+                <button onclick="togglePopup()" class="donate-button">Donér en genstand</button> <!-- togglePopup er den kasse der kommer, når du trykke på knappen -->
             </div>
         </div>
     </div>
 </div>
 
 <div class="popup" id="popup-1">
-    <div class="overlay"></div>
+    <div class="overlay"></div> <!-- Overlayet af kassen der kommer, og dets indhold på denne kasse -->
     <div class="content">
-        <div class="close-btn" onclick="togglePopup()" class="donate-button">×</div>
+        <div class="close-btn" onclick="togglePopup()" class="donate-button">×</div> <!-- Dette sørger for at der er et X på kassen -->
         <h3>Donér en genstand til<br></h3>
         <h2>Kaffetår'n</h2>
         <br>
@@ -110,7 +115,6 @@
     <div class="map">
         <div class="text__element--centered">
             <h2>Besøg os</h2>
-            <p>Google maps her</p>
         </div>
         <br>
         <div class="text__element">
@@ -140,6 +144,8 @@
         document.getElementById("popup-1").classList.toggle("active");
     }
 </script>
+
+<?php include 'include/footer.php'?>
 
 </body>
 </html>
