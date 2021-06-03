@@ -9,20 +9,44 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1
+    ,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;
+    1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
 <?php include 'include/menu.php'?>
 
 <section class="front">
-    <a href="#" class="video--link" data-video="video1">video 1</a>
-    <a href="#" class="video--link" data-video="video2">video 2</a>
-    <a href="#" class="video--link" data-video="video3">video 3</a>
-
+    <div class="overlay__container">
+        <div class="video__overlay">
+            <div class="overlay__links">
+                <a href="#" class="image--link" data-container="image1">MAD</a>
+                <a href="#" class="image--link" data-container="image2">DRIKKE</a>
+                <a href="#" class="image--link" data-container="image3">OM OS</a>
+            </div>
+            <div class="overlay__address">
+                <p>
+                    Hollands Gaard 30,
+                    4800 Nykøbing Falster
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="video--wrapper">
-        <div class="video video1 active">Video 1</div>
-        <div class="video video2">Video 2</div>
-        <div class="video video3">Video 3</div>
+        <div class="video__gradient"></div>
+        <div class="video active"><video autoplay muted src="images/kaffetaarn_video.mp4"  type="video/mp4" alt="Kaffetår'n landing page video"></div>
+        <div class="image image1">
+            <img src="images/food.jpg" alt="Mad">
+        </div>
+        <div class="image image2"><img src="images/drinks.jpg" alt="Drikke"></div>
+        <div class="image image3"><img src="images/lamp.jpg" alt=""></div>
     </div>
 </section>
 
@@ -43,25 +67,19 @@
                 <div class="button">
                     <a href="Læs mere" class="donate-button">Læs mere</a>
                 </div>
-                <div class="text__element">
-                    ...eller se videoen nedenunder
-                </div>
             </div>
         </div>
-        <div class="info__image">
-            <img src="images/front.png" alt="">
-        </div>
         <div class="info__container">
-            <img src="images/front.png" alt="">
+            <img src="images/borgir.jpg" alt="Lakssandwich">
             <div class="info__section">
                 <div class="quote--caps">
                     <h2>MENU</h2>
                 </div>
                 <h4>Vores er mad er lokal og økologisk</h4>
-                <p>Kaffetår'n lægger meget vægt på at bruge 
-                    lokale kvalitets råvare til at lave sine mange 
-                    hjemmelavede retter og kager. Kaffetår'n 
-                    sælger selvfølgelig også kaffe, både lys 
+                <p>Kaffetår'n lægger meget vægt på at bruge
+                    lokale kvalitets råvare til at lave sine mange
+                    hjemmelavede retter og kager. Kaffetår'n
+                    sælger selvfølgelig også kaffe, både lys
                     og mørk. </p>
                 <div class="button">
                     <a href="menukort" class="donate-button">Se menukort</a>
@@ -69,7 +87,7 @@
             </div>
         </div>
         <div class="info__image">
-            <img src="images/front.png" alt="">
+            <img src="images/inside.jpg" alt="Indersiden af Kaffetår'n">
         </div>
         <div class="info__container">
             <div class="info__section">
@@ -83,7 +101,7 @@
                         også komme op i tårnet.</p>
                 </div>
                 <div class="button">
-                    <a href="Læs mere" class="donate-button">Læs mere</a>
+                    <a href="Læs mere" class="donate-button">Se åbningstider</a>
                 </div>
             </div>
         </div>
@@ -148,26 +166,30 @@
     <section class="gallery">
         <div class="container">
             <div class="row">
-                <div content="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <img src="images/front.png" alt="">
                 </div>
-                <div content="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <img src="images/front.png" alt="">
                 </div>
-                <div content="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <img src="images/front.png" alt="">
                 </div>
             </div>
             <div class="row">
-                <div content="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <img src="images/front.png" alt="">
                 </div>
-                <div content="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <img src="images/front.png" alt="">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 px-0">
                     <div class="gallery__container">
-                        <h1>Se flere billeder</h1>
+                        <h1>Se flere
+                            <br>billeder</h1>
+                        <div class="gallery__arrow">
+                            <img src="images/side_arrow.svg" alt="Se flere billeder">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,7 +198,7 @@
 
     <section class="reviews">
         <div class="text__header">
-            <h2>Hvad siger mine kunder</h2>
+            <h2>Hvad siger mine kunder?</h2>
         </div>
         <?php include 'include/swiper.php'?>
     </section>
@@ -206,26 +228,28 @@
         });
 
     //Select alle video links og tilføjer eventListener
-    document.querySelectorAll('.video--link').forEach(link => link.addEventListener('mouseover', () => videoToggleActive(link)));
+    const imageLink = document.querySelectorAll('.image--link');
+    imageLink.forEach(link => link.addEventListener('mouseover', () => imageToggleActive(link)));
+    imageLink.forEach(link => link.addEventListener('mouseout', () => imageRemoveAllActive()));
 
 
-    function videoToggleActive(link){
+    function imageToggleActive(link){
 
-        videoRemoveAllActive();
+        imageRemoveAllActive();
 
         //Finder data-video=""
-        const videoName = link.dataset.video;
+        const imageName = link.dataset.container;
 
         //Bruger data-video="" som en klasse (se punktum) til at finde div'en med samme navn
-        const videoElm = document.querySelector('.'+videoName);
+        const imageElm = document.querySelector('.'+imageName);
 
         //Giver active klasse til den fundne video
-        videoElm.classList.add('active');
+        imageElm.classList.add('active');
     }
 
-    function videoRemoveAllActive(){
+    function imageRemoveAllActive(){
         //Fjerner alle eksisterende "active" klasser
-        document.querySelectorAll('.video').forEach(videoElm => videoElm.classList.remove('active'));
+        document.querySelectorAll('.image').forEach(imageElm => imageElm.classList.remove('active'));
     }
     </script>
 
