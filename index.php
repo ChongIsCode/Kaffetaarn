@@ -41,12 +41,12 @@
     </div>
     <div class="video--wrapper">
         <div class="video__gradient"></div>
-        <div class="video active"><video autoplay muted playsinline loop src="images/kaffetaarn_video_compressed.mp4"  type="video/mp4" alt="Kaffetår'n landing page video">
+        <div class="video active"><video autoplay muted playsinline loop src="images/kaffetaarn_video_compressed.mp4"  type="video/mp4" alt="Kaffetår'n landing page video"></video>
         <div class="image image1">
             <img src="images/food.jpg" alt="Mad">
         </div>
         <div class="image image2"><img src="images/drinks.jpg" alt="Drikke"></div>
-        <div class="image image3"><img src="images/lamp.jpg" alt=""></div>
+        <div class="image image3"><img src="images/lamp.jpg" alt="Om Os"></div>
     </div>
 </section>
 
