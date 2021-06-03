@@ -67,7 +67,7 @@
                             </div>
                             <div class="text__element">
                                 <p>Hos Kaffetår'n er du mere end bare
-                                    en Kunde. Vi sætter nemlig meget focus
+                                    en kunde. Vi sætter nemlig meget focus
                                     på økologi, og at købe lokalt. Vi sætter
                                     også stor pris på at købe kvalitets
                                     råvare.</p>
@@ -86,7 +86,7 @@
                             <div class="quote--caps">
                                 <h2>MENU</h2>
                             </div>
-                            <h4>Vores er mad er lokal og økologisk</h4>
+                            <h4>Kaffetår'ns mad er lokal og økologisk</h4>
                             <p>Kaffetår'n lægger meget vægt på at bruge
                                 lokale kvalitets råvare til at lave sine mange
                                 hjemmelavede retter og kager. Kaffetår'n
