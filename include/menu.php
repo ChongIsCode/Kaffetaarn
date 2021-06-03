@@ -3,9 +3,12 @@
         <a href="#"><img src="images/logo/Kaffetaarn.svg" alt=""></a>
     </div>
     <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
+        <div class="nav-links__sites">
+            <li><a href="#">Om Kaffetår'n</a></li>
+            <li><a href="#">Menukort</a></li>
+            <li><a href="#">Åbnignstider</a></li>
+            <li><a href="#">Galleri</a></li>
+        </div>
         <div class="nav-info">
             <p>Hollands Gaard <br>Latinerkvarteret, Nykøbing F</p>
             <div class="nav-soMe">
