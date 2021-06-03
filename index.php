@@ -232,6 +232,51 @@
 
 <!-- Script links til swiper -->
 <script src="js/app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Script stads til swiper og forside dims -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 50,
+            modifier: 2,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        });
+
+    //Select alle video links og tilføjer eventListener
+    const imageLink = document.querySelectorAll('.image--link');
+    imageLink.forEach(link => link.addEventListener('mouseover', () => imageToggleActive(link)));
+    imageLink.forEach(link => link.addEventListener('mouseout', () => imageRemoveAllActive()));
+
+
+    function imageToggleActive(link){
+
+        imageRemoveAllActive();
+
+        //Finder data-video=""
+        const imageName = link.dataset.container;
+
+        //Bruger data-video="" som en klasse (se punktum) til at finde div'en med samme navn
+        const imageElm = document.querySelector('.'+imageName);
+
+        //Giver active klasse til den fundne video
+        imageElm.classList.add('active');
+    }
+
+    function imageRemoveAllActive(){
+        //Fjerner alle eksisterende "active" klasser
+        document.querySelectorAll('.image').forEach(imageElm => imageElm.classList.remove('active'));
+    }
+    </script>
 
 <?php include 'include/footer.php'?>
 
