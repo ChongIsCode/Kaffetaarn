@@ -41,7 +41,7 @@
     </div>
     <div class="video--wrapper">
         <div class="video__gradient"></div>
-        <div class="video active"><video autoplay muted src="images/kaffetaarn_video.mp4"  type="video/mp4" alt="Kaffetår'n landing page video"></div>
+        <div class="video active"><video autoplay muted src="images/kaffetaarn_video_compressed.mp4"  type="video/mp4" alt="Kaffetår'n landing page video"></div>
         <div class="image image1">
             <img src="images/food.jpg" alt="Mad">
         </div>
@@ -52,56 +52,75 @@
 
 <div class="content--front">
     <section class="info">
-        <div class="info__container">
-            <div class="info__section">
-                <div class="quote">
-                    <h2>"Mere end bare en kunde"</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 px-0">
+                    <div class="info__image">
+                        <img src="images/dea_portraet_square.jpg" alt="Dea Guttman">
+                    </div>
                 </div>
-                <div class="text__element">
-                    <p>Hos Kaffetår'n er du mere end bare
-                        en Kunde. Vi sætter nemlig meget focus
-                        på økologi, og at købe lokalt. Vi sætter
-                        også stor pris på at købe kvalitets
-                        råvare.</p>
-                </div>
-                <div class="button">
-                    <a href="Læs mere" class="donate-button">Læs mere</a>
-                </div>
-            </div>
-        </div>
-        <div class="info__container">
-            <img src="images/borgir.jpg" alt="Lakssandwich">
-            <div class="info__section">
-                <div class="quote--caps">
-                    <h2>MENU</h2>
-                </div>
-                <h4>Vores er mad er lokal og økologisk</h4>
-                <p>Kaffetår'n lægger meget vægt på at bruge
-                    lokale kvalitets råvare til at lave sine mange
-                    hjemmelavede retter og kager. Kaffetår'n
-                    sælger selvfølgelig også kaffe, både lys
-                    og mørk. </p>
-                <div class="button">
-                    <a href="menukort" class="donate-button">Se menukort</a>
+                <div class="col-sm-6 px-0">
+                    <div class="info__section">
+                        <div class="quote">
+                            <h2>"Mere end bare en kunde"</h2>
+                        </div>
+                        <div class="text__element">
+                            <p>Hos Kaffetår'n er du mere end bare
+                                en Kunde. Vi sætter nemlig meget focus
+                                på økologi, og at købe lokalt. Vi sætter
+                                også stor pris på at købe kvalitets
+                                råvare.</p>
+                        </div>
+                        <div class="button">
+                            <a href="Læs mere" class="donate-button">Læs mere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="info__image">
-            <img src="images/inside.jpg" alt="Indersiden af Kaffetår'n">
-        </div>
-        <div class="info__container">
-            <div class="info__section">
-                <div class="quote">
-                    <h2>Hvor er vi?</h2>
+            <div class="row">
+                <div class="col-sm-6 px-0">
+                    <div class="info__section">
+                        <div class="quote--caps">
+                            <h2>MENU</h2>
+                        </div>
+                        <h4>Vores er mad er lokal og økologisk</h4>
+                        <p>Kaffetår'n lægger meget vægt på at bruge
+                            lokale kvalitets råvare til at lave sine mange
+                            hjemmelavede retter og kager. Kaffetår'n
+                            sælger selvfølgelig også kaffe, både lys
+                            og mørk. </p>
+                        <div class="button">
+                            <a href="menukort" class="donate-button">Se menukort</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="text__element">
-                    <p>Kaffetår’n holder åbent fem
-                        dage om ugen. Se hvornår du
-                        kan få en kop kaffe, og måske
-                        også komme op i tårnet.</p>
+                <div class="col-sm-6 px-0">
+                    <div class="info__image">
+                        <img src="images/borgir.jpg" alt="Lakssandwich">
+                    </div>
                 </div>
-                <div class="button">
-                    <a href="Læs mere" class="donate-button">Se åbningstider</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 px-0">
+                    <div class="info__image">
+                        <img src="images/inside.jpg" alt="Indersiden af Kaffetår'n">
+                    </div>
+                </div>
+                <div class="col-sm-6 px-0">
+                    <div class="info__section">
+                        <div class="quote">
+                            <h2>Hvor er vi?</h2>
+                        </div>
+                        <div class="text__element">
+                            <p>Kaffetår’n holder åbent fem
+                                dage om ugen. Se hvornår du
+                                kan få en kop kaffe, og måske
+                                også komme op i tårnet.</p>
+                        </div>
+                        <div class="button">
+                            <a href="Læs mere" class="donate-button">Se åbningstider</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

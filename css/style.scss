@@ -333,14 +333,14 @@ a {
 }
 
 /* Forside */
-.info__section {
-  background-color: grey;
-  height: 340px;
+.info__image img {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__section {
+    width: 50%;
+  }
 }
 
 .bp__wrap {
@@ -717,7 +717,8 @@ a {
     img {
       height: calc(100vh - 8vh);
       object-fit: cover;
-
+      width: 100%;
+      max-width: none;
     }
   }
 
@@ -731,7 +732,7 @@ a {
 
 .info__section {
   background-color: #F5F0EF;
-  height: auto;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
