@@ -54,12 +54,12 @@
     <section class="info">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-dea">
                     <div class="info__image">
                         <img src="images/dea_portraet_square.jpg" alt="Dea Guttman">
                     </div>
                 </div>
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-about">
                     <div class="info__section">
                         <div class="quote">
                             <h2>"Mere end bare en kunde"</h2>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-menu">
                     <div class="info__section">
                         <div class="quote--caps">
                             <h2>MENU</h2>
@@ -94,19 +94,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-borgir">
                     <div class="info__image">
-                        <img src="images/borgir.jpg" alt="Lakssandwich">
+                        <img src="images/yummy.png" alt="Lakssandwich">
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-inside">
                     <div class="info__image">
                         <img src="images/inside.jpg" alt="Indersiden af Kaffetår'n">
                     </div>
                 </div>
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-6 px-0 grid-where">
                     <div class="info__section">
                         <div class="quote">
                             <h2>Hvor er vi?</h2>
@@ -186,21 +186,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 px-0">
-                    <img src="images/front.png" alt="">
+                    <img src="images/wall.jpg" alt="Væg med bøger">
                 </div>
                 <div class="col-sm-4 px-0">
-                    <img src="images/front.png" alt="">
+                    <img src="images/pots.png" alt="Kaffekander">
                 </div>
                 <div class="col-sm-4 px-0">
-                    <img src="images/front.png" alt="">
+                    <img src="images/cakes.png" alt="Kager">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 px-0">
-                    <img src="images/front.png" alt="">
+                    <img src="images/taarn.png" alt="Kaffetår'n set udefra">
                 </div>
                 <div class="col-sm-4 px-0">
-                    <img src="images/front.png" alt="">
+                    <img src="images/wares.png" alt="Varer fra bl.a. MULD og Thea">
                 </div>
                 <div class="col-sm-4 px-0">
                     <div class="gallery__container">
