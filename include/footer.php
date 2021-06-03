@@ -3,7 +3,7 @@
         <div class="footer__section">
             <div class="logo__container">
                 <div class="logo">
-                    <img src="images/logo/Kaffetaarn_wordmark.svg" alt="Kaffetaarn Wordmark">
+                    <img src="images/logo/kaffetarn_wordmark.svg" alt="Kaffetaarn Wordmark">
                 </div>
             </div>
             <div class="text__element">

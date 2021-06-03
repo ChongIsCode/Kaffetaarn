@@ -2,7 +2,7 @@ footer {
     height: auto;
     padding: 37px 37px 10px 37px;
     background-color: #F5F0EF;
-    color: #8C5749;
+    color: #48372D;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,10 +11,12 @@ footer {
 
         .footer__container {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
 
             .footer__section {
-                width: 175px;
+                width: initial;
+
+
             }
         }
     }
@@ -29,6 +31,7 @@ footer {
 
 .text__element {
     margin: 20px 0 20px 0;
+    font-size: 14px;
 }
 
 .text__element--table {
@@ -54,6 +57,7 @@ footer {
             display: flex;
             padding-right: 5px;
             font-style: italic; /* Sets the font to be italicized */
+            font-size: 14px;
         }
 
         /* Ensures text is left-aligned and adds padding */
@@ -61,12 +65,13 @@ footer {
             text-align: left;
             display: flex;
             padding-left: 5px;
+            font-size: 14px;
         }
     }
 }
 
 .footer__SoMe {
-    margin: 40px 0 20px 0;
+    margin: 20px 0 20px 0;
 
     .SoMe__icons {
         display: flex;
