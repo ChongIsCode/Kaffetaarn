@@ -6,7 +6,7 @@
                     <div class="testa-details">
                         <div class="testa-person">
                             <div class="img-box">
-                                <img src="./images/jennifer.jpg" alt="Sean Illner">
+                                <img src="./images/jennifer.jpg" alt="Lisa">
                             </div>
                             <div class="person-info">
                                 <div class="name-container">
@@ -39,7 +39,7 @@
                     <div class="testa-details">
                         <div class="testa-person">
                             <div class="img-box">
-                                <img src="./images/jennifer.jpg" alt="Sean Illner">
+                                <img src="./images/jytte.jpeg" alt="Jytte">
                             </div>
                             <div class="person-info">
                                 <div class="name-container">
@@ -73,12 +73,12 @@
                     <div class="testa-details">
                         <div class="testa-person">
                             <div class="img-box">
-                                <img src="./images/jennifer.jpg" alt="Sean Illner">
+                                <img src="./images/katrine.jpeg" alt="Clara">
                             </div>
                             <div class="person-info">
                                 <div class="name-container">
                                     <div class="name">
-                                        <h3>Emilie J.</h3>
+                                        <h3>Clara J.</h3>
                                     </div>
                                     <div class="stars">
                                         <p>⭐⭐⭐⭐⭐</p>
