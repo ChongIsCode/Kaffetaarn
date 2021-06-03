@@ -24,11 +24,11 @@
             <h1>Galleri</h1>
             <div class="gallery_section__picture">
                 <img src="images/borgir.jpg" alt="">
-                <img src="images/cakes.jpg" alt="">
+                <img src="images/yummy.png" alt="">
                 <img src="images/inside.jpg" alt="">
-                <img class="lastpc" src="images/taarn.jpg" alt="">
-                <img class="last" src="images/pots.jpg" alt="">
-                <img class="last" src="images/wall.jpg" alt="">
+                <img class="lastpc" src="images/cakes.png" alt="">
+                <img class="last" src="images/pots.png" alt="">
+                <img class="last" src="images/wall_square.jpg" alt="">
             </div>
         </div>
     </section>
