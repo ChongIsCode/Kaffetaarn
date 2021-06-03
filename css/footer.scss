@@ -3,6 +3,11 @@ footer {
     padding: 37px 37px 10px 37px;
     background-color: #F5F0EF;
     color: #48372D;
+
+        .text__element {
+        margin: 20px 0 20px 0;
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -29,10 +34,7 @@ footer {
     }
 }
 
-.text__element {
-    margin: 20px 0 20px 0;
-    font-size: 14px;
-}
+
 
 .text__element--table {
     display: flex; /* Turns on flexbox styling */

@@ -43,17 +43,17 @@
     </div>
     <div class="footer__SoMe">
         <div class="SoMe__icons">
-            <a href="#" class="SoMe__facebook">
+            <a href="https://www.facebook.com/kaffetaarn" class="SoMe__facebook">
                 <div class="SoMe__icon">
                     <img src="images/icons/facebook.svg" alt="Kaffetår'n Facebookside">
                 </div>
             </a>
-            <a href="#" class="SoMe__instagram">
+            <a href="https://www.instagram.com/kaffetaarn/" class="SoMe__instagram">
                 <div class="SoMe__icon">
                     <img src="images/icons/instagram.svg" alt="Kaffetår'n Instagramside">
                 </div>
             </a>
-            <a href="#" class="SoMe__tripadvisor">
+            <a href="https://www.tripadvisor.dk/Restaurant_Review-g6495493-d21126653-Reviews-Kaffetaar_n-Nykobing_Falster_Falster_South_Zealand_Zealand.html" class="SoMe__tripadvisor">
                 <div class="SoMe__icon">
                     <img src="images/icons/tripadvisor.svg" alt="Kaffetår'n TripAdvisor">
                 </div>

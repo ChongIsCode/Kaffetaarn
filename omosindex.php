@@ -60,7 +60,7 @@
 
     <div class="grid">
         <div id="billede">
-            <img src="images/DSC_0439.jpg" alt="Dea" height="262" width=100%/>
+            <img src="images/dea_portraet_square.jpg" alt="Dea" height="262" width=100%/>
         </div>
         <br>
         <div id="omdea">

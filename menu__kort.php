@@ -558,7 +558,9 @@
                             </div>
                         </div>
                     </div>
+                    <script src="js/app.js"></script>
 
-                        <?php include 'include/footer.php'?>
+
+                    <?php include 'include/footer.php'?>
 </body>
 </html>

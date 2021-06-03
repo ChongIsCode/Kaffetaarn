@@ -766,6 +766,17 @@ a {
   align-items: center;
   padding: 37px;
 
+  .info__container {
+    background-color: #F5F0EF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 37px;
+  }
+
   h4 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -778,6 +789,23 @@ a {
     margin: 0 0;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .info__section {
+    .info__container {
+      background-color: #F5F0EF;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20%;
+    }
+  }
+}
+
+
 
 .grid-dea {
   order: 2;
@@ -884,6 +912,8 @@ a {
 
 @media screen and (min-width: 576px) {
   .bulletpoints {
+
+    margin: 100px 0;
     .text__header {
       h2 {
         margin: 50px 0 40px 0;
