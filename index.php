@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@
     </div>
     <div class="video--wrapper">
         <div class="video__gradient"></div>
-        <div class="video active"><video autoplay muted src="images/kaffetaarn_video_compressed.mp4"  type="video/mp4" alt="Kaffetår'n landing page video"></div>
+        <div class="video active"><video autoplay muted playsinline loop src="images/kaffetaarn_video_compressed.mp4"  type="video/mp4" alt="Kaffetår'n landing page video">
         <div class="image image1">
             <img src="images/food.jpg" alt="Mad">
         </div>

@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        <a href="index.php"><img src="images/logo/Kaffetaarn.svg" alt=""></a>
+        <a href="index.php"><img src="images/logo/Kaffetaarn.svg" alt="Kaffetår'n logo"></a>
     </div>
     <ul class="nav-links">
         <div class="nav-links__sites">
