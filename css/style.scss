@@ -101,6 +101,23 @@ a {
   .content {
     margin: 50px 172px 0 172px;
   }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto) minmax(1fr, auto);
+    grid-template-areas: "billede billede omdea omdea"
+                          ". . knap knap";}
+
+  #billede{
+    margin-right: 10px;
+    grid-area: billede;
+  }
+  #omdea{
+    grid-area: omdea;
+  }
+  #knap{
+    grid-area: knap;
+  }
 }
 
 /* Sets the margin for desktop size */
@@ -369,26 +386,6 @@ a {
     text-align: center;
     width: 50%;
   }
-}
-
-.grid {
-  display: grid;
-  grid-template-rows:
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto)
-    minmax(400px, auto);
-}
-
-@media screen and (min-width: 500px) {
-.grid {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-        "img1 img2 img3"
-        "img4 img5 morepics";
-}
 }
 
 .gallery {
