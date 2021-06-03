@@ -133,11 +133,11 @@
         <div class="bp__container">
             <div class="bp__wrap">
                 <div class="bp__img">
-                    <img src="images/front.png" alt="">
+                    <img src="images/wares.png" alt="Økologiske råvarer">
                 </div>
                 <div class="quote--small">
                     <h3>Et bredt udvalg af
-                        økologiske råvare</h3>
+                        økologiske råvarer</h3>
                 </div>
                 <div class="text__element">
                     <p>Vi går meget op i at
@@ -146,10 +146,10 @@
             </div>
             <div class="bp__wrap">
                 <div class="bp__img">
-                    <img src="images/front.png" alt="">
+                    <img src="images/meat.jpg" alt="Lokale råvarer">
                 </div>
                 <div class="quote--small">
-                    <h3>Lokale råvare</h3>
+                    <h3>Lokale råvarer</h3>
                 </div>
                 <div class="text__element">
                     <p>Hos Kaffetår'n forsøger vi så vidt muligt at handle lokalt.</p>
@@ -157,7 +157,7 @@
             </div>
             <div class="bp__wrap">
                 <div class="bp__img">
-                    <img src="images/front.png" alt="">
+                    <img src="images/sandwich.png" alt="Kvalitets varer">
                 </div>
                 <div class="quote--small">
                     <h3>God kvalitet</h3>
@@ -168,7 +168,7 @@
             </div>
             <div class="bp__wrap">
                 <div class="bp__img">
-                    <img src="images/front.png" alt="">
+                    <img src="images/gluten.png" alt="Glutenfri produkter">
                 </div>
                 <div class="quote--small">
                     <h3>Glutenfri</h3>
@@ -186,7 +186,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 px-0">
-                    <img src="images/wall.jpg" alt="Væg med bøger">
+                    <img src="images/wall_square.jpg" alt="Væg med bøger">
                 </div>
                 <div class="col-sm-4 px-0">
                     <img src="images/pots.png" alt="Kaffekander">

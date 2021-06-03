@@ -58,11 +58,11 @@ a {
 }
 
 a {
-  color: white;
+  color: initial;
   text-decoration: none;
 
   &:hover {
-    color: white;
+    color: initial;
     text-decoration: none;
   }
 }
@@ -724,6 +724,37 @@ a {
   }
 }
 
+@media screen and (min-width: 576px) {
+  .front {
+    .overlay__container {
+      .video__overlay {
+        font-size: 40px;
+
+        .overlay__links {
+          a {
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .front {
+    .overlay__container {
+      .video__overlay {
+        font-size: 60px;
+
+        .overlay__links {
+          a {
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+  }
+}
 
 
 .info__section {
